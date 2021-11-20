@@ -1,0 +1,132 @@
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing: border-box;
+	font-family: gotham;
+}
+
+.container{
+	width: 100%;
+	background: white;
+}
+
+.jumbotron{
+	width: 100%;
+	height: auto;
+	background: #3d6cb9;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 50px;
+}
+
+.jumbotron h1{
+	margin-bottom: 5px;
+	font-size: 28px;
+	color: white;
+	font-stretch: extra-condensed;
+}
+
+.container-boxbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+
+.boxbox{
+	height: 500px;
+	width: 70%;
+	margin: 20px 0;
+	background: whitesmoke;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-shadow: 0px 0px 15px 8px lightgrey;
+	transition: 0.8s;
+	/**/
+}
+.boxbox:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 0px 20px 20px lightgrey;
+}
+
+.boxbox .images{
+	width: 50%;
+	height: 100%;
+
+}
+.images img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+.boxbox .write{
+	width: 50%;
+	height: 100%;
+	background: white;
+	padding: 20px 25px;
+	border-radius: 5px;
+	overflow-y: scroll;
+}
+
+
+.discover{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 20px 0;
+	background: #3d6cb9;
+	text-align: center;
+}
+.discover h2{
+	color: white;
+}
+
+.program{
+	margin: 40px 0;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.program-element{
+	width: 80%;
+	padding: 20px 20px;
+	background: #88bef5;
+	margin: 25px 0;
+	border-radius: 8px;
+	transition: 0.5s;
+	box-shadow: 0px 0px 25px 8px lightgrey;
+}
+
+.program-element:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 0px 25px 18px lightgrey;
+}
+
+
+.program-element span{
+	margin-right: 8px;
+	font-size: 24px;
+	color: #3d6cb9;
+}
+
+.one{
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #2f89fc;
+	font-weight: bolder;
+}
+.two{
+	font-size: 20px;
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+.three{
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
